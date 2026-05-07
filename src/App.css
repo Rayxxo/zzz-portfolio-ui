@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'ZZZ';
+  src: url("./fonts/ZZZ.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'ZZZ', sans-serif;
+  font-weight: normal !important; 
+  -webkit-user-drag: none; 
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-select: none;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+body, html, #root {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+}
