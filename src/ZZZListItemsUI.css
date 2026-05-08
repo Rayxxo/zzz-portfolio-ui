@@ -19,8 +19,16 @@ button {
     left: 0;
     width: 100%;
     height: 126px;
-    background: rgba(0, 0, 0, 0.45);
-    backdrop-filter: blur(2px);
+
+    background-image: 
+        radial-gradient(rgba(0, 0, 0, 0.815) 0.8px, transparent 0),
+        radial-gradient(rgba(0, 0, 0, 0.815) 0.8px, transparent 0);
+    
+    background-size: 5px 5px;
+    background-position: 0 0, 2.5px 2.5px;
+
+    background-color: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(8px);
     z-index: 1;
 }
 
@@ -51,7 +59,7 @@ button {
 }
 
 .github-item,
-.linkedin-item,
+.linkedin-item, 
 .youtube-item,
 .daitaku-helios {
     position: relative;

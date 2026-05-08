@@ -1,6 +1,7 @@
 import "./App.css";
 import ZZZvideo from "./assets/videos/yidharizzz.mp4";
 import ListItemsUI from "./ZZZListItemsUI.jsx";
+import ZZZUpperPart from "./ZZZUpperPart.jsx";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         </video>
       </div>
 
+      <ZZZUpperPart/>
       <ListItemsUI />
       <p>zzz stuff</p>
     </>
