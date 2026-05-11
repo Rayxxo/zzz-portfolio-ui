@@ -39,6 +39,94 @@
     gap: 20px
 }
 
+.profile {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(rgb(85, 85, 85), rgb(0, 0, 0));
+    border: solid 2px black;
+    border-radius: 60px;
+    padding: 3px 10px;
+    padding-right: 20px;
+    gap: 15px;
+}
+
+.profile-avatar img {
+    width: 50px;
+    height: auto;
+    display: block;
+}
+
+.profile-avatar {
+    display: flex;
+    overflow: hidden;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 2px;
+    text-align: left;
+}
+
+.profile-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-level {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.07;
+    margin-left: auto;
+}
+
+.profile-name {
+    color: white;
+    font-size: 19px;
+    -webkit-text-stroke: 0.1px black;
+}
+
+.level-bar-container {
+    width: 170px;
+    height: 13px;
+}
+
+.level-bar-fill {
+    width: 100%;
+    height: 100%;
+    background: #00a2ff;
+
+    display: flex;
+    align-items: center;
+    
+    padding-left: 10px;
+    border-radius: 60px;
+}
+
+.level-bar-fill p {
+    color: white;
+    line-height: 1;
+    font-size: 13px;
+}
+
+.level-number {
+    color: white;
+    font-size: 1.57rem;
+}
+
+.level-label {
+    font-size: 9px;
+}
+
 .battery-div, .dennies-div, .polychrome-div {
     position: relative;
     display: flex;
@@ -60,8 +148,11 @@
 .battery-div p, .dennies-div p, .polychrome-div p {
     position: relative;
     margin-right: 15px;
-    color: white;
     font-size: 22px;
+}
+
+.battery-div p {
+    color: white;
 }
 
 .battery-div img, .dennies-div img, .polychrome-div img {

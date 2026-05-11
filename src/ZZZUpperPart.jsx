@@ -2,6 +2,7 @@ import './ZZZUpperPart.css'
 import polychromeZZZ from './assets/images/polychromeimage.png'
 import denniesZZZ from './assets/images/denniesicon.png'
 import batteryZZZ from './assets/images/batteryicon.png'
+import promeiaIcon from './assets/images/promeiaicon.png'
 
 function ZZZUpperPart() {
     return (
@@ -10,8 +11,26 @@ function ZZZUpperPart() {
 
             <div className='upper-container-items'>
                 <div className="left-part-items">
-                    <p>Return button</p>
-                    <p>Profile</p>
+                    <div className='profile'>
+
+                        <div className='profile-avatar'>
+                            <img src={promeiaIcon}></img>
+                        </div>
+
+                        <div className='profile-info'>
+                            <p className='profile-name'>ThisIsNotRay</p>
+                            <div className='level-bar-container'>
+                                <div className='level-bar-fill'>
+                                    <p>MAX/MAX</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='profile-level'>
+                            <p className='level-number'>60</p>
+                            <p className='level-label'>LEVEL</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div className='right-part-items'>
