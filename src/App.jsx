@@ -2,6 +2,7 @@ import "./App.css";
 import ZZZvideo from "./assets/videos/yidharizzz.mp4";
 import ListItemsUI from "./ZZZListItemsUI.jsx";
 import ZZZUpperPart from "./ZZZUpperPart.jsx";
+import EventCarousel from "./ZZZEventPart.jsx";
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
 
       <ZZZUpperPart/>
       <ListItemsUI />
-      <p>zzz stuff</p>
+      <EventCarousel />
     </>
   );
 }

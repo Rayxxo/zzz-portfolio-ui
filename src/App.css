@@ -15,6 +15,7 @@
   -o-user-drag: none;
   user-select: none;
 
+  border: solid rgb(255, 0, 0) 1px;
 }
 
 .bg-video {

@@ -1,0 +1,50 @@
+.event-sidebar {
+    position: fixed;
+    top: 140px;
+    right: 100px; 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+}
+.event-lower-part, .event-upper {
+    position: relative;
+    width: 350px;
+    height: 115px;
+    
+    padding-right: 10px;
+    z-index: 10;
+    overflow: hidden;
+
+    z-index: 1;
+}
+.event-upper img, .event-lower-part img {
+    width: 105%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.event-gap {
+    width: 250px; /* Slightly narrower than the frames */
+    height: 400px;
+}
+
+.event-carousel-content {
+    position: absolute; 
+    
+    /* Pull it UP and DOWN to overlap the frames */
+    top: 83px; 
+    bottom: 45px;
+    left: 50px;
+    right: 50px;
+    z-index: 100;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid greenyellow 1px;
+    overflow-y: auto;
+}
